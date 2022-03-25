@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Generated PDF files
+*.pdf
+.pdf
+
+# Directory of compiled js builds
+lib

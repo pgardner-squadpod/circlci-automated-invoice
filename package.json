@@ -1,0 +1,24 @@
+{
+  "name": "automated-invoice-starter",
+  "version": "1.0.0",
+  "description": "Adaptation of work by yemiwebby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "execute": "node ./lib/index.js",
+    "start": "npm run clean && npm run build && npm run execute"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/nodemailer": "^6.4.4",
+    "dotenv": "^16.0.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.3"
+  }
+}
