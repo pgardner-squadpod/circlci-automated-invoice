@@ -19,6 +19,9 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Run the application
-          command: npm run start
+          name: Build the app
+          command: npm run build
+      - run:
+          name: Run the app
+          command: npm run execute
           background: true
