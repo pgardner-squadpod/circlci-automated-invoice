@@ -19,8 +19,5 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Build the app
-          command: npm run build
-      - run:
-          name: Run the app
-          command: node ./lib/index.js
+          name: Start the app
+          command: npm run start
