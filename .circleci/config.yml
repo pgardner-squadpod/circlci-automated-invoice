@@ -23,5 +23,4 @@ jobs:
           command: npm run build
       - run:
           name: Run the app
-          command: npm run execute
-          background: true
+          command: node ./lib/index.js
